@@ -162,4 +162,13 @@
 //echo strpos(strstr($result['htmlText'],"href="), ';}');
 
 date_default_timezone_set('PRC');
-echo date("Y-m-d H:i:s",strtotime("-30 minutes"));
+//echo date("Y-m-d H:i:s",strtotime("-30 minutes"));
+echo date('Y-m-d H:00:00',strtotime('-1 hour'));
+echo "\n";
+echo date('Y-m-d H:59:59',strtotime('-1 hour'));
+//echo "\n";
+//echo date('Y-m-d 00:00:00',strtotime('-1 day'));
+//echo "\n";
+//echo date('Y-m-d 23:59:59',strtotime('-1 day'));
+//echo "\n";
+//echo str_replace(['wechat','alipay','qq','jd'],['微信','支付宝','QQ','京东'],"wechat,jd");
