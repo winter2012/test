@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style>
+           .pt{
+             line-height:22px;
+             width:280px;   
+                   }
+           div a{
+             float:right ;
+             margin-right:5px;   
+                   }
+    </style>
+    <script>
+        function up(obj){
+            var _div = $(obj).parent() ,
+                _divp = _div.parent() ,
+                _divs = _divp.children("div") ,
+                _divindex = _divs.index(_div);
+
+            if(_divindex>0){
+                _divs.eq(_divindex-1).before(_div);
+            }
+        }
+        function down(obj){
+            var _div = $(obj).parent() ,
+                _divp = _div.parent() ,
+                _divs = _divp.children("div") ,
+                _divindex = _divs.index(_div);
+
+            if(_divindex<_divs.length-1){
+                _divs.eq(_divindex+1).after(_div);
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+   <div>
+          <div class="pt">
+            <a href="javascript:;" onclick="up(this);">上移</a>
+            <a href="javascript:;" onclick="down(this);">下移</a>
+            <span>内容一</span>
+          </div>
+          <div class="pt">
+            <a href="javascript:;" onclick="up(this);">上移</a>
+            <a href="javascript:;" onclick="down(this);">下移</a>
+            <span>内容二</span>
+          </div>
+          <div class="pt">
+            <a href="javascript:;" onclick="up(this);">上移</a>
+            <a href="javascript:;" onclick="down(this);">下移</a>
+            <span>内容三</span>
+          </div>
+          <div class="pt">
+            <a href="javascript:;" onclick="up(this);">上移</a>
+            <a href="javascript:;" onclick="down(this);">下移</a>
+            <span>内容四</span>
+          </div>
+       </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汇丰支付</title>
+</head>
+<body>
+    <form name='h5PaySubmit' action='https://hfpay.honfox.com/api/v3/cashier.php' method='post'>
+        <input type='hidden' name='merchant' value='SKB18091018588'/>
+        <input type='hidden' name='qrtype' value='yl'/>
+        <input type='hidden' name='customno' value='2019041204401967217013'/>
+        <input type='hidden' name='money' value='200'/>
+        <input type='hidden' name='sendtime' value='1555058419'/>
+        <input type='hidden' name='notifyurl' value='http://zb-api.mekxfj.com/api/pay/notify/hfpay'/>
+        <input type='hidden' name='backurl' value=''/>
+        <input type='hidden' name='risklevel' value=''/>
+        <input type='hidden' name='sign' value='9d53690ad32805b9d1cfd18f2d671d5e'/>
+    </form>
+    <script>document.forms['h5PaySubmit'].submit();</script>
+</body>
+</html>
