@@ -370,4 +370,5 @@
 //    '6' => 'fff',
 //];
 //var_dump($array);
-echo round(0,4);
+$result = 31%2 == 0 ? '双' : '单';
+echo $result;
