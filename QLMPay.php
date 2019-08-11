@@ -29,8 +29,9 @@ function httpRequest($url, $postFields, $customRequest = 'POST'){
 
 $orderData = [
     'shopId'    => $shopId,
-    'amount'    => 700.00,
+    'amount'    => 800.00,
     'payType'   => 'wx',
+    'uOrderId'  => 'TD'.date('YmdHis').rand(1000,9999),
     'notify_url'=> 'http://api.axpay9.com/notify/QLMPay'
 ];
 $str = 'shopId='.$orderData['shopId'].'&amount='.$orderData['amount'].'&payType='.$orderData['payType'].'&'.$merKey;
