@@ -8,7 +8,7 @@
 date_default_timezone_set('PRC');
 $mchId = 'xiaoya001';
 $apiKey = 'sdjkhf234098234wer';
-$gateway = 'http://dpsport.3087zu.cn:9006/order';
+$gateway = 'http://dpsport.b98tv.cn:9006/order';
 
 $data = [
     'mchId'     => $mchId,
