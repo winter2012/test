@@ -12,7 +12,7 @@ $gateway = 'https://api.ppzf.net/ChargeQRSrc.aspx';
 
 $data = [
     'merchantID'    => $merchantID,
-    'bankCode'      => "1001",
+    'bankCode'      => "6002",
     'tradeAmt'      => 600.00,
     'orderNo'       => "RC".date('YmdHis').rand(1000,9999),
     'notifyUrl'     => "http://www.demo.com/notify",
@@ -24,8 +24,7 @@ $data = [
 
 $str = "merchantID=$data[merchantID]&bankCode=$data[bankCode]&tradeAmt=$data[tradeAmt]&orderNo=$data[orderNo]&notifyUrl=$data[notifyUrl]&returnUrl=$data[returnUrl]&payerIP=$data[payerIP]".$apiKey;
 $data['sign'] = md5($str);
-unset($data['key']);
-echo "签名字符串:".$str.",签名方法:md5,签名结果:".$data['sign']."\n";
+//echo "签名字符串:".$str.",签名方法:md5,签名结果:".$data['sign']."\n";
 
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL, $gateway);
@@ -39,6 +38,6 @@ if( curl_errno($ch) ) {
     exit("curl请求异常,错误码:".curl_errno($ch).",错误信息:".curl_error($ch));
 }
 curl_close($ch);
-echo "派派支付宝提交URL:$gateway,提交参数:".http_build_query($data).",接收响应:".json_encode(json_decode($response,1),320);
+echo "派派支付提交URL:$gateway,提交参数:".http_build_query($data).",接收响应:".json_encode(json_decode($response,1),320);
 //$result = json_decode($response,true);
 //echo $result['data']['url'];
