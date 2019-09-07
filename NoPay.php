@@ -29,7 +29,7 @@ $signStr .= "key=".$apiKey;
 $data['pay_md5sign'] = strtoupper(MD5($signStr));
 $data['pay_productname'] = "mac";
 
-echo "签名字符串:".$signStr.",签名方法:md5,签名结果:".$data['pay_md5sign']."\n";
+//echo "签名字符串:".$signStr.",签名方法:md5,签名结果:".$data['pay_md5sign']."\n";
 
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL, $gateway);
