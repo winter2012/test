@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
-      <change afterPath="$PROJECT_DIR$/YXPay.php" afterDir="false" />
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="永鑫支付">
+      <change afterPath="$PROJECT_DIR$/JLPay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,21 +52,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/YXPay.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JLPay.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.smarty" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\test\js" />
+      <recent name="D:\workspace\test\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\test" />
       <recent name="D:\workspace\test\css" />
       <recent name="D:\workspace\test\js" />
       <recent name="D:\workspace\test\img" />
       <recent name="D:\workspace\test\bootstrap-select-v1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\test\js" />
-      <recent name="D:\workspace\test\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,11 +81,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.YXPay">
+  <component name="RunManager" selected="PHP Script.JLPay">
     <configuration name="HZIPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HZIPay.php">
       <method v="2" />
     </configuration>
     <configuration name="HZPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HZPay.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="JLPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/JLPay.php">
       <method v="2" />
     </configuration>
     <configuration name="MLAliPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/MLAliPay.php">
@@ -127,6 +130,7 @@
       <item itemvalue="PHP Script.domain" />
       <item itemvalue="PHP Script.sign" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="PHP Script.JLPay" />
       <item itemvalue="PHP Script.MLAliPay" />
       <item itemvalue="PHP Script.PPPay" />
       <item itemvalue="PHP Script.NoPay" />
@@ -238,7 +242,11 @@
       <workItem from="1567490159996" duration="2331000" />
       <workItem from="1567784891315" duration="2515000" />
       <workItem from="1569072818648" duration="136000" />
-      <workItem from="1569133892127" duration="5499000" />
+      <workItem from="1569133892127" duration="5606000" />
+      <workItem from="1569211267680" duration="1983000" />
+      <workItem from="1569404538735" duration="1277000" />
+      <workItem from="1569551815908" duration="5246000" />
+      <workItem from="1569648776189" duration="3268000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -310,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567823577312</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="永鑫支付">
+      <created>1569143609831</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569143609831</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +352,7 @@
     <MESSAGE value="派派支付云闪付" />
     <MESSAGE value="91支付" />
     <MESSAGE value="tiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
+    <MESSAGE value="永鑫支付" />
+    <option name="LAST_COMMIT_MESSAGE" value="永鑫支付" />
   </component>
 </project>
