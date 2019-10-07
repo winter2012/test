@@ -370,5 +370,21 @@
 //    '6' => 'fff',
 //];
 //var_dump($array);
-$result = 31%2 == 0 ? '双' : '单';
-echo $result;
+//$result = 31%2 == 0 ? '双' : '单';
+//echo $result;
+$data = [
+    'rspcode'       => '0000',
+    'rspmsg'        => '付款完成',
+    'amount'        => '100100',
+    'rspdate'       => '20190928120723',
+    'dealAmount'    => '9.9',
+    'merchOrderNo'  => 'SZ20191007213251845'
+];
+ksort($data);
+$str = '';
+foreach ($data as $key => $value) {
+    $str .= $key.'='.$value;
+}
+$str .= 'f933f04a62993fb91b51f0980da31cbc';
+$sign = md5($str);
+echo $sign;
