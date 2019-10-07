@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="永鑫支付">
-      <change afterPath="$PROJECT_DIR$/JLPay.php" afterDir="false" />
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="金鳞支付">
+      <change afterPath="$PROJECT_DIR$/HTXPay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,21 +52,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JLPay.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTXPay.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.smarty" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\test\js" />
-      <recent name="D:\workspace\test\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\test" />
       <recent name="D:\workspace\test\css" />
       <recent name="D:\workspace\test\js" />
       <recent name="D:\workspace\test\img" />
       <recent name="D:\workspace\test\bootstrap-select-v1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\test\js" />
+      <recent name="D:\workspace\test\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +81,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.JLPay">
+  <component name="RunManager" selected="PHP Script.HTXPay">
+    <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
+      <method v="2" />
+    </configuration>
     <configuration name="HZIPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HZIPay.php">
       <method v="2" />
     </configuration>
@@ -122,19 +125,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.YXPay" />
       <item itemvalue="PHP Script.HZIPay" />
       <item itemvalue="PHP Script.HZPay" />
+      <item itemvalue="PHP Script.JLPay" />
+      <item itemvalue="PHP Script.HTXPay" />
+      <item itemvalue="PHP Script.MLAliPay" />
+      <item itemvalue="PHP Script.NoPay" />
+      <item itemvalue="PHP Script.PDD" />
+      <item itemvalue="PHP Script.PPPay" />
       <item itemvalue="PHP Script.QLMPay" />
+      <item itemvalue="PHP Script.YXPay" />
       <item itemvalue="PHP Script.domain2" />
       <item itemvalue="PHP Script.domain" />
       <item itemvalue="PHP Script.sign" />
       <item itemvalue="PHP Script.test.php" />
-      <item itemvalue="PHP Script.JLPay" />
-      <item itemvalue="PHP Script.MLAliPay" />
-      <item itemvalue="PHP Script.PPPay" />
-      <item itemvalue="PHP Script.NoPay" />
-      <item itemvalue="PHP Script.PDD" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -247,6 +251,7 @@
       <workItem from="1569404538735" duration="1277000" />
       <workItem from="1569551815908" duration="5246000" />
       <workItem from="1569648776189" duration="3268000" />
+      <workItem from="1570418025155" duration="3583000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
