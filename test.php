@@ -375,10 +375,10 @@
 $data = [
     'rspcode'       => '0000',
     'rspmsg'        => '付款完成',
-    'amount'        => '100100',
+    'amount'        => '600',
     'rspdate'       => '20190928120723',
-    'dealAmount'    => '9.9',
-    'merchOrderNo'  => 'SZ20191007213251845'
+    'dealAmount'    => '600',
+    'merchOrderNo'  => 'SZ20191008195820953'
 ];
 ksort($data);
 $str = '';
