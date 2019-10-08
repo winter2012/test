@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="汇天下支付">
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="生成签名">
+      <change afterPath="$PROJECT_DIR$/TFPay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HFPay.html" beforeDir="false" afterPath="$PROJECT_DIR$/HFPay.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,21 +53,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../szh_agent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\test\js" />
+      <recent name="D:\workspace\test\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\test" />
       <recent name="D:\workspace\test\css" />
       <recent name="D:\workspace\test\js" />
       <recent name="D:\workspace\test\img" />
       <recent name="D:\workspace\test\bootstrap-select-v1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\test\js" />
-      <recent name="D:\workspace\test\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.test.php">
+  <component name="RunManager" selected="PHP Script.TFPay">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -107,6 +108,9 @@
       <method v="2" />
     </configuration>
     <configuration name="QLMPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/QLMPay.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="TFPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/TFPay.php">
       <method v="2" />
     </configuration>
     <configuration name="YXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/YXPay.php">
@@ -139,6 +143,7 @@
       <item itemvalue="PHP Script.domain" />
       <item itemvalue="PHP Script.sign" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="PHP Script.TFPay" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -253,7 +258,7 @@
       <workItem from="1569648776189" duration="3268000" />
       <workItem from="1570418025155" duration="6495000" />
       <workItem from="1570438162765" duration="4218000" />
-      <workItem from="1570455438445" duration="1149000" />
+      <workItem from="1570455438445" duration="7875000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -339,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570426860369</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="生成签名">
+      <created>1570457122414</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570457122414</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +380,7 @@
     <MESSAGE value="tiny" />
     <MESSAGE value="永鑫支付" />
     <MESSAGE value="汇天下支付" />
-    <option name="LAST_COMMIT_MESSAGE" value="汇天下支付" />
+    <MESSAGE value="生成签名" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成签名" />
   </component>
 </project>
