@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YXPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/YXPay.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +57,16 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\test\js" />
-      <recent name="D:\workspace\test\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\test" />
       <recent name="D:\workspace\test\css" />
       <recent name="D:\workspace\test\js" />
       <recent name="D:\workspace\test\img" />
       <recent name="D:\workspace\test\bootstrap-select-v1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\test\js" />
+      <recent name="D:\workspace\test\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.test.php">
+  <component name="RunManager" selected="PHP Script.YXPay">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -260,7 +260,8 @@
       <workItem from="1570455438445" duration="7897000" />
       <workItem from="1570525009136" duration="1203000" />
       <workItem from="1570535916134" duration="1044000" />
-      <workItem from="1570597756603" duration="2533000" />
+      <workItem from="1570597756603" duration="2548000" />
+      <workItem from="1570638574464" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570536185195</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tiny">
+      <created>1570619740671</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570619740671</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,9 +6,9 @@
  * Time: 20:17
  */
 date_default_timezone_set('PRC');
-$uid= '1360';
-$signKey = 'DA2378DB3A372F0EEC6D6CD46D03B687';
-$gateway = 'http://www.wegopay.me/payapi/Index/payindex';
+$uid= '1302';
+$signKey = 'A0913E12B648B103B879D6999B6DD5C4';
+$gateway = 'http://www.wegopay100.me/payapi/Index/payindex';
 
 $data = [
     'merchant_order_uid'                    => $uid,
@@ -22,7 +22,7 @@ ksort($data);
 $str = http_build_query($data);
 $str .= "&apikey=" . $signKey;
 $data['merchant_order_sign'] = md5($str);
-echo "签名字符串:".$str.",签名方法:md5,签名结果:".$data['merchant_order_sign']."\n";
+//echo "签名字符串:".$str.",签名方法:md5,签名结果:".$data['merchant_order_sign']."\n";
 
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL, $gateway);
