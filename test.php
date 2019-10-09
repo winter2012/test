@@ -372,19 +372,22 @@
 //var_dump($array);
 //$result = 31%2 == 0 ? '双' : '单';
 //echo $result;
-$data = [
-    'rspcode'       => '0000',
-    'rspmsg'        => '付款完成',
-    'amount'        => '600',
-    'rspdate'       => '20190928120723',
-    'dealAmount'    => '600',
-    'merchOrderNo'  => 'SZ20191008195820953'
-];
-ksort($data);
-$str = '';
-foreach ($data as $key => $value) {
-    $str .= $key.'='.$value;
-}
-$str .= 'f933f04a62993fb91b51f0980da31cbc';
-$sign = md5($str);
-echo $sign;
+//$data = [
+//    'rspcode'       => '0000',
+//    'rspmsg'        => '付款完成',
+//    'amount'        => '600',
+//    'rspdate'       => '20190928120723',
+//    'dealAmount'    => '600',
+//    'merchOrderNo'  => 'SZ20191008195820953'
+//];
+//ksort($data);
+//$str = '';
+//foreach ($data as $key => $value) {
+//    $str .= $key.'='.$value;
+//}
+//$str .= 'f933f04a62993fb91b51f0980da31cbc';
+//$sign = md5($str);
+//echo $sign;
+
+$next_open_date = "2019-10-13";
+echo date('d',strtotime($next_open_date)) - date('d');
