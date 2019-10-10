@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="永鑫支付宝">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YXPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/YXPay.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +261,9 @@
       <workItem from="1570525009136" duration="1203000" />
       <workItem from="1570535916134" duration="1044000" />
       <workItem from="1570597756603" duration="2548000" />
-      <workItem from="1570638574464" duration="285000" />
+      <workItem from="1570638574464" duration="344000" />
+      <workItem from="1570684733845" duration="2437000" />
+      <workItem from="1570690599195" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -375,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570619740671</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="永鑫支付宝">
+      <created>1570638869090</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570638869090</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,6 +415,7 @@
     <MESSAGE value="生成签名" />
     <MESSAGE value="通付" />
     <MESSAGE value="tiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
+    <MESSAGE value="永鑫支付宝" />
+    <option name="LAST_COMMIT_MESSAGE" value="永鑫支付宝" />
   </component>
 </project>
