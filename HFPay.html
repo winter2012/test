@@ -5,15 +5,16 @@
     <title>通付</title>
 </head>
 <body>
-    <form name='h5PaySubmit' action='http://globalfront888tidan.699dz.com/api/order-add' method='post'>
-        <input type='hidden' name='merchant_id' value='705'/>
-        <input type='hidden' name='order_no' value='SZ20191008160547887'/>
-        <input type='hidden' name='type' value='ALIPAYQR'/>
-        <input type='hidden' name='amount' value='800'/>
-        <input type='hidden' name='user_identifier' value='7881011'/>
+    <form name='h5PaySubmit' action='http://www.pigspay.com/gateway/index/pay.do' method='post'>
+        <input type='hidden' name='account_id' value='10014'/>
+        <input type='hidden' name='content_type' value='json'/>
+        <input type='hidden' name='thoroughfare' value='taobao'/>
+        <input type='hidden' name='out_trade_no' value='SZ20191011175309384'/>
+        <input type='hidden' name='amount' value='600.00'/>
         <input type='hidden' name='callback_url' value='http://www.szh.com/notify.jsp'/>
-        <input type='hidden' name='sign' value='6c41315acea620aa788664f01c2b27f3'/>
-        <input type='hidden' name='return_url' value='http://www.szh.com/home.jsp'/>
+        <input type='hidden' name='success_url' value='http://www.szh.com/home.jsp'/>
+        <input type='hidden' name='error_url' value='http://www.szh.com/error.jsp'/>
+        <input type='hidden' name='sign' value='76bf6ee898a42b1bd5f323da215e718a'/>
     </form>
     <script>document.forms['h5PaySubmit'].submit();</script>
 </body>
