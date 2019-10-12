@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>通付</title>
+    <title>小猪支付</title>
 </head>
 <body>
     <form name='h5PaySubmit' action='http://www.pigspay.com/gateway/index/pay.do' method='post'>
         <input type='hidden' name='account_id' value='10014'/>
         <input type='hidden' name='content_type' value='json'/>
         <input type='hidden' name='thoroughfare' value='taobao'/>
-        <input type='hidden' name='out_trade_no' value='SZ20191011175309384'/>
-        <input type='hidden' name='amount' value='600.00'/>
+        <input type='hidden' name='out_trade_no' value='SZ20191011222358181'/>
+        <input type='hidden' name='amount' value='500.00'/>
         <input type='hidden' name='callback_url' value='http://www.szh.com/notify.jsp'/>
         <input type='hidden' name='success_url' value='http://www.szh.com/home.jsp'/>
         <input type='hidden' name='error_url' value='http://www.szh.com/error.jsp'/>
-        <input type='hidden' name='sign' value='76bf6ee898a42b1bd5f323da215e718a'/>
+        <input type='hidden' name='sign' value='e7d505af21c2a5ab7f178fd9122a1352'/>
     </form>
     <script>document.forms['h5PaySubmit'].submit();</script>
 </body>

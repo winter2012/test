@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="下载APP页面">
-      <change afterPath="$PROJECT_DIR$/XZPay.php" afterDir="false" />
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="小猪支付">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HFPay.html" beforeDir="false" afterPath="$PROJECT_DIR$/HFPay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XZPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/XZPay.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/XZPay.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -271,7 +271,9 @@
       <workItem from="1570690599195" duration="3804000" />
       <workItem from="1570709690491" duration="88000" />
       <workItem from="1570713235694" duration="196000" />
-      <workItem from="1570784454850" duration="8521000" />
+      <workItem from="1570784454850" duration="8542000" />
+      <workItem from="1570795982268" duration="6204000" />
+      <workItem from="1570866358331" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -399,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570693723692</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="小猪支付">
+      <created>1570794939726</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570794939726</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +441,7 @@
     <MESSAGE value="tiny" />
     <MESSAGE value="永鑫支付宝" />
     <MESSAGE value="下载APP页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="下载APP页面" />
+    <MESSAGE value="小猪支付" />
+    <option name="LAST_COMMIT_MESSAGE" value="小猪支付" />
   </component>
 </project>
