@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="小猪支付">
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HFPay.html" beforeDir="false" afterPath="$PROJECT_DIR$/HFPay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XZPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/XZPay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/TFPay.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.XZPay">
+  <component name="RunManager" selected="PHP Script.TFPay">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -273,7 +272,9 @@
       <workItem from="1570713235694" duration="196000" />
       <workItem from="1570784454850" duration="8542000" />
       <workItem from="1570795982268" duration="6204000" />
-      <workItem from="1570866358331" duration="3331000" />
+      <workItem from="1570866358331" duration="3360000" />
+      <workItem from="1570949469691" duration="2200000" />
+      <workItem from="1570955995751" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -408,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570794939726</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="tiny">
+      <created>1570891642789</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570891642789</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,10 +446,10 @@
     <MESSAGE value="汇天下支付" />
     <MESSAGE value="生成签名" />
     <MESSAGE value="通付" />
-    <MESSAGE value="tiny" />
     <MESSAGE value="永鑫支付宝" />
     <MESSAGE value="下载APP页面" />
     <MESSAGE value="小猪支付" />
-    <option name="LAST_COMMIT_MESSAGE" value="小猪支付" />
+    <MESSAGE value="tiny" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
   </component>
 </project>
