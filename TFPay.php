@@ -29,10 +29,10 @@ $str .= 'key='.$signKey;
 
 $data['sign'] = md5($str);
 //echo "签名字符串:".$str.",签名方法:MD5,签名结果:".$data['sign']."\n";
-$data['return_url'] = 'http://www.szh.com/home.jsp';
+$data['return_url'] = 'http://www.yyf.com/home.jsp';
 
 //print_r($data);die;
-//echo $gateway."?".http_build_query($data);die;
+echo $gateway."?".http_build_query($data);die;
 
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL, $gateway);
