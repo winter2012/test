@@ -43,7 +43,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 $response = curl_exec($ch);
 if( curl_errno($ch) ) {
-    exit("curl请求异常,错误码:".curl_errno($ch).",错误信息:".curl_error($ch));
+    echo "curl请求异常,错误码:".curl_errno($ch).",错误信息:".curl_error($ch);die;
 }
 curl_close($ch);
 echo "通付提交URL: $gateway ,提交参数:".json_encode($data,320).",接收响应:".json_encode(json_decode($response,true),320);
