@@ -6,9 +6,9 @@
  * Time: 20:17
  */
 date_default_timezone_set('PRC');
-$merchant_id = 'YB19092320251';
-$signKey = '292950ca5748155a2df573bbef636a02';
-$gateway = 'http://www.yironpay.cn/api/v3/cashier.php';
+$merchant_id = 'YB19102520334';
+$signKey = '4e8abe3f58874b5585118692402dcf2b';
+$gateway = 'http://pp.yironpay.cn/api/v3/cashier.php';
 
 $data = [
     'merchant'  => $merchant_id,
@@ -26,7 +26,7 @@ $str = "merchant=$data[merchant]&qrtype=$data[qrtype]&customno=$data[customno]&m
 $data['sign'] = md5($str);
 //echo "签名字符串:".$str.",签名方法:MD5,签名结果:".$data['sign']."\n";
 
-//print_r($data);die;
+print_r($data);die;
 //echo $gateway."?".http_build_query($data);die;
 
 $ch = curl_init();
