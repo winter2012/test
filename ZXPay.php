@@ -23,9 +23,9 @@ $data = [
 $str = "mch_uid=$data[mch_uid]&notify_url=$data[notify_url]&out_trade_no=$data[out_trade_no]&pay_type=$data[pay_type]&return_url=$data[return_url]&timestamp=$data[timestamp]&total_fee=$data[total_fee]".$signKey;
 
 $data['sign'] = md5($str);
-//echo "签名字符串:".$str.",签名方法:MD5,签名结果:".$data['sign']."\n";
+//echo "签名字符串: ".$str." ,签名方法:MD5,签名结果: ".$data['sign']." \n";
 //print_r($data);die;
-//echo $gateway."&".http_build_query($data);die;
+echo "GET请求地址和参数: ".$gateway."&".http_build_query($data);die;
 
 $gateway = $gateway."&".http_build_query($data);
 
@@ -41,6 +41,6 @@ if( curl_errno($ch) ) {
     echo "curl请求异常,错误码:".curl_errno($ch).",错误信息:".curl_error($ch);die;
 }
 curl_close($ch);
-//echo "ZX支付提交URL: $gateway ,提交参数:".json_encode($data,320).",接收响应:".json_encode(json_decode($response,true),320);
-$result = json_decode($response,true);
-echo $result['data'];
+echo "ZX支付提交URL: $gateway ,包含参数:".json_encode($data,320).",接收响应:".json_encode(json_decode($response,true),320);
+//$result = json_decode($response,true);
+//echo $result['data'];
