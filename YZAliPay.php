@@ -18,6 +18,7 @@ $data = [
     'ReturnUrl'     => 'http://www.yyf.com/home.jsp',
     'NonceStr'      => rand(100000,999999),
     'RechargeType'  => 1,
+    'ReturnType'    => 2,
     'Attach'        => 'yyf',
 ];
 
