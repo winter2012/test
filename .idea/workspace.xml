@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="云信支付">
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YZAliPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/YZAliPay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lumen_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -81,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.YZAliPay">
+  <component name="RunManager" selected="PHP Script.test.php">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -296,7 +296,8 @@
       <workItem from="1571711590493" duration="2372000" />
       <workItem from="1572002848577" duration="16680000" />
       <workItem from="1572413279780" duration="8852000" />
-      <workItem from="1572510203921" duration="11138000" />
+      <workItem from="1572510203921" duration="11158000" />
+      <workItem from="1572796621234" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -487,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572438383500</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="tiny">
+      <created>1572623232209</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1572623232209</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,8 +531,8 @@
     <MESSAGE value="通付get请求" />
     <MESSAGE value="168支付宝" />
     <MESSAGE value="ZXPay" />
-    <MESSAGE value="tiny" />
     <MESSAGE value="云信支付" />
-    <option name="LAST_COMMIT_MESSAGE" value="云信支付" />
+    <MESSAGE value="tiny" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
   </component>
 </project>
