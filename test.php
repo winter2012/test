@@ -392,6 +392,5 @@
 /*$next_open_date = "2019-10-13";
 echo date('d',strtotime($next_open_date)) - date('d');*/
 
-$test1 = "http://img.pay.me/FQJXWAYA1103002531.png";
-$test2 = explode('/',$test1);
-echo current(explode('.',end($test2)));
+$test1 = "/report@winter666_bot";
+echo substr(current(explode('@',$test1)),1);

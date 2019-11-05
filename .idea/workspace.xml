@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
-      <change afterPath="$PROJECT_DIR$/bobi/JsonToSql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bobi/insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bobi/table.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wh/getReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wh/report_copy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bobi/insert.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pay_platform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -86,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Insert">
+  <component name="RunManager" selected="PHP Script.bot_index">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -135,6 +134,9 @@
     <configuration name="ZXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/ZXPay.php">
       <method v="2" />
     </configuration>
+    <configuration name="bot_index" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/wh/index.php">
+      <method v="2" />
+    </configuration>
     <configuration name="domain" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/domain.php">
       <method v="2" />
     </configuration>
@@ -167,6 +169,7 @@
       <item itemvalue="PHP Script.sign" />
       <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.getReport" />
+      <item itemvalue="PHP Script.bot_index" />
       <item itemvalue="PHP Script.Insert" />
       <item itemvalue="PHP Script.TFPay" />
       <item itemvalue="PHP Script.YLBPay" />
@@ -311,7 +314,7 @@
       <workItem from="1572413279780" duration="8852000" />
       <workItem from="1572510203921" duration="11158000" />
       <workItem from="1572796621234" duration="1138000" />
-      <workItem from="1572843097170" duration="19641000" />
+      <workItem from="1572843097170" duration="32671000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -516,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572838380907</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="波比数据处理">
+      <created>1572871581358</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1572871581358</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,6 +564,18 @@
     <MESSAGE value="ZXPay" />
     <MESSAGE value="云信支付" />
     <MESSAGE value="tiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
+    <MESSAGE value="波比数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="波比数据处理" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wh/getReport.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
