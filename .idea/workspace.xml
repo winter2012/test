@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
-      <change afterPath="$PROJECT_DIR$/wh/getReport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh/report_copy.html" afterDir="false" />
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="抓数据">
+      <change afterPath="$PROJECT_DIR$/bobi/73qp2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bobi/insert2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bobi/jd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bobi/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/bobi/insert1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pay_platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bobi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -85,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.bot_index">
+  <component name="RunManager" selected="PHP Script.Insert">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -95,7 +95,7 @@
     <configuration name="HZPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HZPay.php">
       <method v="2" />
     </configuration>
-    <configuration name="Insert" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bobi/insert.php">
+    <configuration name="Insert" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bobi/insert1.php">
       <method v="2" />
     </configuration>
     <configuration name="JLPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/JLPay.php">
@@ -146,6 +146,9 @@
     <configuration name="getReport" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/wh/getReport.php">
       <method v="2" />
     </configuration>
+    <configuration name="insert2" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/bobi/insert2.php">
+      <method v="2" />
+    </configuration>
     <configuration name="sign" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/sign.php">
       <method v="2" />
     </configuration>
@@ -170,6 +173,7 @@
       <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.getReport" />
       <item itemvalue="PHP Script.bot_index" />
+      <item itemvalue="PHP Script.insert2" />
       <item itemvalue="PHP Script.Insert" />
       <item itemvalue="PHP Script.TFPay" />
       <item itemvalue="PHP Script.YLBPay" />
@@ -314,7 +318,10 @@
       <workItem from="1572413279780" duration="8852000" />
       <workItem from="1572510203921" duration="11158000" />
       <workItem from="1572796621234" duration="1138000" />
-      <workItem from="1572843097170" duration="32671000" />
+      <workItem from="1572843097170" duration="33291000" />
+      <workItem from="1572948281799" duration="603000" />
+      <workItem from="1573096439616" duration="3033000" />
+      <workItem from="1573180413564" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -526,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572871581358</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="抓数据">
+      <created>1572945871921</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572945871921</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +579,8 @@
     <MESSAGE value="云信支付" />
     <MESSAGE value="tiny" />
     <MESSAGE value="波比数据处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="波比数据处理" />
+    <MESSAGE value="抓数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="抓数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,5 @@
 <?php
-$file = file_get_contents('JsonToSql.txt');
+$file = file_get_contents('73qp2.txt');
 $strArray = explode("\n",$file);
 $data = [];
 foreach ($strArray as $item){
@@ -12,7 +12,7 @@ foreach ($strArray as $item){
         $data[] = json_decode($datum,320);
     }
 }
-$stream = fopen("table.txt", "w+");
+$stream = fopen("table2.txt", "w+");
 //foreach ($data[0] as $key=>$value){
 //    fwrite($stream,$key."/");
 //}
