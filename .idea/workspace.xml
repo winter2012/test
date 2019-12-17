@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="提取数据">
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
+      <change afterPath="$PROJECT_DIR$/nginx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bobi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -81,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Insert">
+  <component name="RunManager" selected="PHP Script.test.php">
     <configuration name="HTXPay" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/HTXPay.php">
       <method v="2" />
     </configuration>
@@ -317,7 +319,19 @@
       <workItem from="1572843097170" duration="33291000" />
       <workItem from="1572948281799" duration="603000" />
       <workItem from="1573096439616" duration="3033000" />
-      <workItem from="1573180413564" duration="1806000" />
+      <workItem from="1573180413564" duration="1902000" />
+      <workItem from="1573271282573" duration="629000" />
+      <workItem from="1573272392009" duration="20000" />
+      <workItem from="1573628601045" duration="1487000" />
+      <workItem from="1573727369938" duration="76000" />
+      <workItem from="1573727466678" duration="17000" />
+      <workItem from="1573730667161" duration="643000" />
+      <workItem from="1574665998753" duration="1477000" />
+      <workItem from="1574752947522" duration="3794000" />
+      <workItem from="1575297612731" duration="612000" />
+      <workItem from="1575871282296" duration="2567000" />
+      <workItem from="1575977795179" duration="673000" />
+      <workItem from="1576247653316" duration="6866000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -543,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573181334769</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="tiny">
+      <created>1573183220879</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573183220879</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,21 +601,10 @@
     <MESSAGE value="168支付宝" />
     <MESSAGE value="ZXPay" />
     <MESSAGE value="云信支付" />
-    <MESSAGE value="tiny" />
     <MESSAGE value="波比数据处理" />
     <MESSAGE value="抓数据" />
     <MESSAGE value="提取数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="提取数据" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wh/getReport.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="tiny" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
   </component>
 </project>

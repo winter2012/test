@@ -392,5 +392,37 @@
 /*$next_open_date = "2019-10-13";
 echo date('d',strtotime($next_open_date)) - date('d');*/
 
-$test1 = "/report@winter666_bot";
-echo substr(current(explode('@',$test1)),1);
+//$test1 = "/report@winter666_bot";
+//echo substr(current(explode('@',$test1)),1);
+
+
+//function unicodeDecode($unicode_str){
+//    $json = '{"str":"'.$unicode_str.'"}';
+//    $arr = json_decode($json,true);
+//    if(empty($arr)) return '';
+//    return $arr['str'];
+//}
+//
+//echo unicodeDecode("\u5c0f\u4ed9\u5973");
+
+//$a = "created_time:2018-06-11 18:50:48";
+//$tmp = explode(":",$a);
+//echo count($tmp);
+
+/*$a = [
+    "aaa",
+    "bbb",
+    "",
+    "ddd",
+    "\r"
+];
+foreach ($a as $key=>$value) {
+    if( $value == "" || $value == "\r" ){
+        unset($a[$key]);
+    }
+}
+print_r($a);*/
+
+$data = '';
+$data = json_decode($data,true);
+print_r($data);
