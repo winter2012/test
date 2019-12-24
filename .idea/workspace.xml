@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="tiny">
-      <change afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jack.html" afterDir="false" />
+    <list default="true" id="ea7bbd8c-9dba-4dc4-98be-3b67b719a754" name="Default" comment="iframe层层引用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jack.html" beforeDir="false" afterPath="$PROJECT_DIR$/iframe.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +332,7 @@
       <workItem from="1575977795179" duration="673000" />
       <workItem from="1576247653316" duration="6888000" />
       <workItem from="1576564846915" duration="229000" />
-      <workItem from="1577107572111" duration="7979000" />
+      <workItem from="1577107572111" duration="9235000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1536053299733</created>
@@ -573,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576555264062</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="iframe层层引用">
+      <created>1577189616207</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1577189616207</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,6 +620,7 @@
     <MESSAGE value="抓数据" />
     <MESSAGE value="提取数据" />
     <MESSAGE value="tiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny" />
+    <MESSAGE value="iframe层层引用" />
+    <option name="LAST_COMMIT_MESSAGE" value="iframe层层引用" />
   </component>
 </project>
